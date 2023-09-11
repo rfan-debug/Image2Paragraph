@@ -5,6 +5,10 @@ pretrained_models/sam_vit_b_01ec64.pth
 pretrained_models/grit_b_densecap_objectdet.pth
 pretrained_models/*
 
+# Ignore images
+examples/*
+
+example_outputs/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

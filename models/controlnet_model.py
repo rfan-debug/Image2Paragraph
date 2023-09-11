@@ -56,7 +56,7 @@ class TextToImage:
         print('\nStep5, Text to Image:')
         image = self.preprocess_image(image)
         generated_image = self.model(text, image, num_inference_steps=20).images[0]
-        print("Generated image has been svaed.")
+        print("Generated image has been saved.")
         print('\033[1;35m' + '*' * 100 + '\033[0m')
         return generated_image
     
