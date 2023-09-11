@@ -1,7 +1,7 @@
 import openai
 
 class ImageToText:
-    def __init__(self, api_key, gpt_version="gpt-3.5-turbo"):
+    def __init__(self, api_key, gpt_version="gpt-4"):
         self.template = self.initialize_template()
         openai.api_key = api_key
         self.gpt_version = gpt_version
